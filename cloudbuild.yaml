@@ -13,6 +13,7 @@ steps:
     - '--region=${_REGION}'
     - '--platform=managed'
     - '--allow-unauthenticated'
+    - '--labels=dev-tutorial=codelab-agentverse'
     - '--min-instances=1'
     - '--timeout=1800'
     - '--port=8000'
